@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #black{background-color: black;}
+        /* .container{display: flex; flex-direction: column;} */
+        .btn{
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid green;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: green;
+
+        }
+    </style>
+    <title>Snake Game</title>
+</head>
+<body>
+    <h4>Score: <span id="score">0</span></h4>
+    <canvas id="black" width="500" height="500"></canvas>
+    <button class="btn">Start/Restart</button>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
